@@ -1,6 +1,6 @@
 {
   "name": "jscs-cappuccino",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "jscs plugin that provides a preset for Cappuccino",
   "homepage": "https://github.com/cappuccino/jscs-cappuccino",
   "keywords": [
