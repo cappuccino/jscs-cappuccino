@@ -18,7 +18,7 @@
   },
   "bugs": "https://github.com/cappuccino/jscs-cappuccino/issues",
   "engines": {
-    "node": ">=4.1.0"
+    "node": ">=0.12.0"
   },
   "main": "lib/index.js",
   "scripts": {

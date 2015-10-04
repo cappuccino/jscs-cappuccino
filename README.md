@@ -24,8 +24,8 @@ Finally, add a `.jscsrc` file to your project root (if you don't have one alread
 
 ```json
 {
-    plugins: ["jscs-cappuccino"],
-    preset: "cappuccino"
+    "plugins": ["jscs-cappuccino"],
+    "preset": "cappuccino"
 }
 ```
 
