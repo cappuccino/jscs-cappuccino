@@ -1,0 +1,33 @@
+{
+  "name": "jscs-cappuccino",
+  "version": "1.0.0",
+  "description": "jscs plugin that provides a preset for Cappuccino",
+  "homepage": "https://github.com/cappuccino/jscs-cappuccino",
+  "keywords": [
+    "Cappuccino",
+    "jscs",
+    "jscsplugin",
+    "jscs-plugin",
+    "preset"
+  ],
+  "author": "Aparajita Fishman (http://www.aparajita.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cappuccino/jscs-cappuccino.git"
+  },
+  "bugs": "https://github.com/cappuccino/jscs-cappuccino/issues",
+  "engines": {
+    "node": ">=4.1.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "generate-fixtures": "node test/generate.js",
+    "lint": "jscs lib test/*.js && eslint lib test/*.js",
+    "test": "npm run lint && node test/test.js"
+  },
+  "devDependencies": {
+    "eslint-config-cappuccino": "^1.1.0",
+    "jscs": ">=1.8.0"
+  }
+}

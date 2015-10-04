@@ -1,0 +1,49 @@
+{
+    "maximumLineLength": {
+        "value": 120,
+        "tabSize": 4,
+        "allowComments": true,
+        "allowUrlComments": true,
+        "allowRegex": true
+    },
+    "requireLineBreakAfterVariableAssignment": true,
+    "requireMultipleVarDecl": true,
+    "requirePaddingNewLinesAfterBlocks": {
+        "allExcept": [
+            "inCallExpressions",
+            "inArrayExpressions",
+            "inProperties"
+        ]
+    },
+    "requirePaddingNewLinesAfterUseStrict": true,
+    "requirePaddingNewLinesBeforeExport": true,
+    "requirePaddingNewlinesBeforeKeywords": [
+        "do",
+        "for",
+        "if",
+        "switch",
+        "case",
+        "default",
+        "try",
+        "void",
+        "with"
+    ],
+    "requireSpaceAfterBinaryOperators": true,
+    "requireSpaceAfterKeywords": [
+        "for",
+        "while",
+        "if",
+        "switch",
+        "catch",
+        "void"
+    ],
+    "requireSpaceBeforeBinaryOperators": true,
+    "requireSpacesInConditionalExpression": true,
+    "validateAlignedFunctionParameters": {
+        "lineBreakAfterOpeningBrace": true,
+        "lineBreakBeforeClosingBrace": true
+    },
+    "validateNewlineAfterArrayElements": {
+        "maximum": 4
+    }
+}
