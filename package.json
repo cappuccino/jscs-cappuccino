@@ -25,9 +25,5 @@
     "generate-fixtures": "node test/generate.js",
     "lint": "jscs lib test/*.js && eslint lib test/*.js",
     "test": "npm run lint && node test/test.js"
-  },
-  "devDependencies": {
-    "eslint-config-cappuccino": "^1.1.0",
-    "jscs": ">=1.8.0"
   }
 }

@@ -11,7 +11,7 @@ A plugin that provides [`jscs`][] with a `cappuccino` code style preset.
 First you need to install `jscs`:
 
 ```
-$ npm i jscs --save-dev
+$ npm install -g jscs
 ```
 
 Next, install `jscs-cappuccino`:
