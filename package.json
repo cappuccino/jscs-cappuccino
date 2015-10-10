@@ -18,12 +18,19 @@
   },
   "bugs": "https://github.com/cappuccino/jscs-cappuccino/issues",
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=0.10"
   },
   "main": "lib/index.js",
   "scripts": {
-    "generate-fixtures": "node test/generate.js",
+    "generate-fixtures": "node test/test.js generate",
     "lint": "jscs lib test/*.js && eslint lib test/*.js",
-    "test": "npm run lint && node test/test.js"
+    "test": "npm run lint && node test/test.js",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "devDependencies": {
+    "capture-stream": "^0.1.1",
+    "eslint": "^1.6.0",
+    "eslint-config-cappuccino": ">=1.1.16",
+    "jscs": "^2.3.0"
   }
 }

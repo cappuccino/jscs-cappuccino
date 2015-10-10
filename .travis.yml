@@ -4,9 +4,7 @@ sudo: false  # use container-based infrastructure
 node_js:
   - "stable"
   - "0.12"
-
-before_install:
-  - npm install -g jscs eslint eslint-config-cappuccino
+  - "0.10"
 
 matrix:
   fast_finish: true
