@@ -1,7 +1,7 @@
 jscs-cappuccino
 ===============
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Build status][appveyor-image]][appveyor-url]
 
 A plugin that provides [`jscs`][] with a `cappuccino` code style preset.
 
@@ -37,3 +37,6 @@ Finally, add a `.jscsrc` file to your project root (if you don't have one alread
 
 [travis-url]: https://travis-ci.org/cappuccino/jscs-cappuccino
 [travis-image]: https://travis-ci.org/cappuccino/jscs-cappuccino.svg?branch=master
+
+[appveyor-url]: https://ci.appveyor.com/project/aparajita/eslint-config-cappuccino
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/7dd45pxivdgdc473?svg=true
