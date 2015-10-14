@@ -1,4 +1,5 @@
 {
     "plugins": ["."],
-    "preset": "cappuccino"
+    "preset": "cappuccino",
+    "excludeFiles": ["test/fixtures"]
 }

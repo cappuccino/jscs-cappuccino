@@ -23,7 +23,7 @@
   "main": "lib/index.js",
   "scripts": {
     "generate-fixtures": "node test/test.js generate",
-    "lint": "jscs lib test/*.js && eslint lib test/*.js",
+    "lint": "jscs lib test && eslint lib test",
     "test": "npm run lint && node test/test.js",
     "postversion": "git push && git push --tags && npm publish"
   },
