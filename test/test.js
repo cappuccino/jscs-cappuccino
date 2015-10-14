@@ -1,7 +1,6 @@
 "use strict";
 
 /* eslint-disable no-var, prefer-arrow-callback */
-// jscs: disable requireMultipleVarDecl
 
 var captureStream = require("capture-stream"),
     Checker = require("jscs"),
@@ -9,9 +8,7 @@ var captureStream = require("capture-stream"),
     path = require("path"),
     reporter = require("jscs/lib/reporters/inline.js");
 
-var checker = new Checker();
-
-// jscs: enable
+var checker = new Checker();  // jscs: ignore requireMultipleVarDecl
 
 checker.registerDefaultRules();
 checker.configure(require("../presets/cappuccino.json"));
