@@ -1,32 +1,32 @@
 "use strict";
 
-/* eslint-disable no-var, prefer-arrow-callback */
-
-var captureStream = require("capture-stream"),
+const
+    captureStream = require("capture-stream"),
     Checker = require("jscs"),
     fs = require("fs"),
     path = require("path"),
     reporter = require("jscs/lib/reporters/inline.js");
 
-var checker = new Checker();  // jscs: ignore requireMultipleVarDecl
+const checker = new Checker();  // jscs: ignore requireMultipleVarDecl
 
 checker.registerDefaultRules();
 checker.configure(require("../presets/cappuccino.json"));
 
-var errors = [];
+let errors = [];
 
-fs.readdirSync("test/fixtures").forEach(function(file)
+fs.readdirSync("test/fixtures").forEach((file) =>
 {
     if (path.extname(file) === ".js")
     {
-        var filePath = path.join("test/fixtures", file),
+        const
+            filePath = path.join("test/fixtures", file),
             source = fs.readFileSync(filePath, { encoding: "utf8" });
 
         errors.push(checker.checkString(source));
     }
 });
 
-var restore = captureStream(process.stdout),
+let restore = captureStream(process.stdout),
     output;
 
 reporter(errors);
@@ -39,7 +39,7 @@ if (process.argv[2] === "generate")
 }
 else
 {
-    var fixture = fs.readFileSync("test/fixtures/errors.txt", { encoding: "utf8" });
+    const fixture = fs.readFileSync("test/fixtures/errors.txt", { encoding: "utf8" });
 
     if (fixture === output)
     {

@@ -1,9 +1,11 @@
 jscs-cappuccino
 ===============
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Build status][appveyor-image]][appveyor-url]
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Build status][appveyor-image]][appveyor-url]
 
-A plugin that provides [`jscs`][] with a `cappuccino` code style preset.
+A plugin that provides [jscs][] with a [cappuccino][] code style preset.
 
 
 ## Installation
@@ -30,10 +32,11 @@ Finally, add a `.jscsrc` file to your project root (if you don't have one alread
 ```
 
 
-[`jscs`]: http://jscs.info/
+[cappuccino]: http://cappuccino.org
+[jscs]: http://jscs.info/
 
 [npm-url]: https://npmjs.org/package/jscs-cappuccino
-[npm-image]: http://img.shields.io/npm/v/jscs-cappuccino.svg?style=flat
+[npm-image]: http://img.shields.io/npm/v/jscs-cappuccino.svg
 
 [travis-url]: https://travis-ci.org/cappuccino/jscs-cappuccino
 [travis-image]: https://travis-ci.org/cappuccino/jscs-cappuccino.svg?branch=master
