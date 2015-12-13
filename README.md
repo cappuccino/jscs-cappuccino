@@ -3,7 +3,7 @@ jscs-cappuccino
 
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
-[![Build status][appveyor-image]][appveyor-url]
+[![Dependencies status][dependencies-image]][dependencies-url]
 
 A plugin that provides [jscs][] with a [cappuccino][] code style preset.
 
@@ -35,11 +35,11 @@ Finally, add a `.jscsrc` file to your project root (if you don't have one alread
 [cappuccino]: http://cappuccino.org
 [jscs]: http://jscs.info/
 
+[npm-image]: http://img.shields.io/npm/v/jscs-cappuccino.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/jscs-cappuccino
-[npm-image]: http://img.shields.io/npm/v/jscs-cappuccino.svg
 
+[travis-image]: https://img.shields.io/travis/cappuccino/jscs-cappuccino.svg?style=flat-square
 [travis-url]: https://travis-ci.org/cappuccino/jscs-cappuccino
-[travis-image]: https://travis-ci.org/cappuccino/jscs-cappuccino.svg?branch=master
 
-[appveyor-url]: https://ci.appveyor.com/project/aparajita/eslint-config-cappuccino
-[appveyor-image]: https://ci.appveyor.com/api/projects/status/7dd45pxivdgdc473?svg=true
+[dependencies-image]: https://img.shields.io/gemnasium/cappuccino/jscs-cappuccino.svg?style=flat-square
+[dependencies-url]: https://gemnasium.com/cappuccino/jscs-cappuccino#development-dependencies
