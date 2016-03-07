@@ -1,11 +1,4 @@
 {
-    "maximumLineLength": {
-        "value": 120,
-        "tabSize": 4,
-        "allowComments": true,
-        "allowUrlComments": true,
-        "allowRegex": true
-    },
     "requireLineBreakAfterVariableAssignment": true,
     "requireMultipleVarDecl": true,
     "requirePaddingNewLinesAfterBlocks": {
@@ -28,22 +21,8 @@
         "void",
         "with"
     ],
-    "requireSpaceAfterBinaryOperators": true,
-    "requireSpaceAfterKeywords": [
-        "for",
-        "while",
-        "if",
-        "switch",
-        "catch",
-        "void"
-    ],
-    "requireSpaceBeforeBinaryOperators": true,
-    "requireSpacesInConditionalExpression": true,
     "validateAlignedFunctionParameters": {
         "lineBreakAfterOpeningBrace": true,
         "lineBreakBeforeClosingBrace": true
-    },
-    "validateNewlineAfterArrayElements": {
-        "maximum": 4
     }
 }

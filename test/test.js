@@ -42,9 +42,7 @@ else
     const fixture = fs.readFileSync("test/fixtures/errors.txt", { encoding: "utf8" });
 
     if (fixture === output)
-    {
         console.log("Test passed");
-    }
     else
     {
         console.log("Oops, fixture doesn't match");

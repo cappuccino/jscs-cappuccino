@@ -1,34 +1,16 @@
-input: line 6, col 156, Line must be at most 120 characters
-input: line 10, col 0, Let declarations should be joined
-input: line 10, col 9, Variable assignments should be followed by new line
-input: line 16, col 1, Missing newline after block
-input: line 17, col 20, Missing newline before export
-input: line 21, col 6, Keyword `do` should have an empty line above it
-input: line 28, col 6, Keyword `for` should have an empty line above it
-input: line 32, col 6, Keyword `if` should have an empty line above it
-input: line 36, col 6, Keyword `switch` should have an empty line above it
-input: line 40, col 14, Keyword `case` should have an empty line above it
-input: line 42, col 14, Keyword `default` should have an empty line above it
-input: line 47, col 6, Keyword `try` should have an empty line above it
-input: line 58, col 7, Operator + should not stick to following expression
-input: line 65, col 5, One space required after "while" keyword
-input: line 67, col 3, One space required after "for" keyword
-input: line 70, col 2, One space required after "if" keyword
-input: line 73, col 6, One space required after "switch" keyword
-input: line 83, col 5, One space required after "catch" keyword
-input: line 91, col 5, Operator + should not stick to preceding expression
-input: line 94, col 19, Missing space after test
-input: line 94, col 20, Missing space before consequent
-input: line 94, col 25, Missing space after consequent
-input: line 94, col 26, Missing space before alternate
-input: line 97, col 16, There is no line break after the opening brace
-input: line 98, col 4, Multi-line parameters are not aligned.
-input: line 98, col 7, There is no line break before the closing brace
-input: line 105, col 7, There is no line break before the closing brace
-input: line 111, col 4, Multi-line parameters are not aligned.
-input: line 119, col 9, First element should be placed on new line
-input: line 119, col 12, Multiple elements at a single line in multiline array
-input: line 119, col 15, Multiple elements at a single line in multiline array
-input: line 119, col 18, Multiple elements at a single line in multiline array
-input: line 119, col 21, Multiple elements at a single line in multiline array
-input: line 119, col 23, Closing bracket should be placed on new line
+input: line 7, col 9, Variable assignments should be followed by new line
+input: line 8, col 0, Let declarations should be joined
+input: line 14, col 1, Missing newline after block
+input: line 15, col 20, Missing newline before export
+input: line 19, col 6, Keyword `do` should have an empty line above it
+input: line 26, col 6, Keyword `for` should have an empty line above it
+input: line 30, col 6, Keyword `if` should have an empty line above it
+input: line 34, col 6, Keyword `switch` should have an empty line above it
+input: line 38, col 14, Keyword `case` should have an empty line above it
+input: line 40, col 14, Keyword `default` should have an empty line above it
+input: line 45, col 6, Keyword `try` should have an empty line above it
+input: line 56, col 16, There is no line break after the opening brace
+input: line 57, col 4, Multi-line parameters are not aligned.
+input: line 57, col 7, There is no line break before the closing brace
+input: line 64, col 7, There is no line break before the closing brace
+input: line 70, col 4, Multi-line parameters are not aligned.

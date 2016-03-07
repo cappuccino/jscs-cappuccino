@@ -1,13 +1,11 @@
 "use strict";
 
-/* eslint-disable no-unused-vars, no-undef */
-
-// maximumLineLength: 120
-let x = "It is not the critic who counts; not the one who points out where the great man stumbles, or where the doer of deeds could have done them better.";
+/* eslint-disable */
 
 // requireMultipleVarDecl
 // requireLineBreakAfterVariableAssignment
 let y = 7, z = 13;
+let x = 13;
 
 // requirePaddingNewLinesAfterBlocks
 if (x)
@@ -54,45 +52,6 @@ catch (e)
     // nothing
 }
 
-// requireSpacesAfterBinaryOperators
-y = x +1;
-
-// requireSpaceAfterKeywords: do, for, while, if, else, switch, catch, typeof
-do
-{
-    x = 7;
-}
-while(x > 1);
-
-for(let zz in y)
-    ++i;
-
-if(x)
-    x = 7;
-
-switch(x)
-{
-    default:
-        break;
-}
-
-try
-{
-    x = 7;
-}
-catch(ex)
-{
-    // nothing
-}
-
-let t = typeof x;
-
-// requireSpacesBeforeBinaryOperators
-x = y+ 1;
-
-// requireSpacesInConditionalExpression
-console.log(y === 7?"yes":"no");
-
 // validateAlignedFunctionParameters
 function align1(foo,
     bar)
@@ -114,6 +73,3 @@ function align3(
 {
     // nothing
 }
-
-// validateNewlineAfterArrayElements: maximum 4
-let a = [1, 2, 3, 4, 5];
